@@ -5,12 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=gobrando/housing_ml_devops
+dockerpath=gobrando/housing_prediction
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login
+docker login --username gobrando
 
 # Step 3:
 # Push image to a docker repository
