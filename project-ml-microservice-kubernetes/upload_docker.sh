@@ -10,7 +10,8 @@ dockerpath=gobrando/housing_prediction
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login --username gobrando
+docker login
+#docker tag app gobrando/housing_prediction
 
 # Step 3:
 # Push image to a docker repository

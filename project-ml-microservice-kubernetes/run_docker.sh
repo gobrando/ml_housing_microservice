@@ -4,10 +4,10 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=housing_prediction .
+docker build --tag=app .
 # Step 2: 
 # List docker images
 docker images
 # Step 3: 
 # Run flask app
-docker run -it -p 8000:80 housing_prediction
+docker run -it -p 80:80 app
