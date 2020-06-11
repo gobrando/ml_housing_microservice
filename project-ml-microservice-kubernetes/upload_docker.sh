@@ -5,7 +5,7 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=gobrando/housing_prediction
+dockerpath=gobrando/housing-prediction
 
 # Step 2:  
 # Authenticate & tag
